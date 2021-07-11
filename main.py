@@ -6,9 +6,23 @@ def clear() -> None:
     print("\033[H\033[2J", end="", flush=True)
 
 
+logo = '''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
 auction = {}
 highest = 0
 flag = 'yes'
+print(logo)
 print("Welcome to the Auction House")
 while flag == 'yes':
     name = input("What's your name? ")
