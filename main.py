@@ -33,7 +33,7 @@ while flag == 'yes':
     flag = input("Are there any other bidders? 'yes' or 'no'\n").lower()
     if flag == 'yes':
         clear()
-print(f"Highest Bid is :{highest} by {auction[highest]}")
+print(f"Highest Bid is :{highest} by {auction[highest].upper()}")
 for i in range(3, 0, -1):
     print(i)
     t.sleep(2)
