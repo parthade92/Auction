@@ -9,6 +9,7 @@ def clear() -> None:
 auction = {}
 highest = 0
 flag = 'yes'
+print("Welcome to the Auction House")
 while flag == 'yes':
     name = input("What's your name? ")
     amount = int(input("What's your bid? $"))
